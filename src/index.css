@@ -1,11 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@plugin "daisyui";
 
 :root {
-  --text: #6b6375;
-  --bg: #000;
-
+  --text-primary: #f8f8f8;
+  --text-secondary: #6b6375;
+  --bg: #242424;
+  --color-primary: #242424;
+  --color-secondary: #161616;
+  --color-tertiary: #9d0410;
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
@@ -13,7 +17,7 @@
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
   color-scheme: light dark;
-  color: var(--text);
+  color: var(--text-primary);
   background: var(--bg);
 
   font-synthesis: none;

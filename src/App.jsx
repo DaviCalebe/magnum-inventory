@@ -1,10 +1,11 @@
 import './App.css'
+import Header from './components/header'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-red-800'>MagnumBase</h1>
+    <Header />
     </>
   )
 }
